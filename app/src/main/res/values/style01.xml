@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Signin">
+        <item name="android:hint">@string/log_in</item>
+        <item name="android:text">Sign In</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="Usename">
+        <item name="android:text">Usename</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">#30ffffff</item>
+        <item name="android:drawablePadding">20dp</item>
+    </style>
+    <style name="Password">
+        <item name="android:padding">20dp</item>
+        <item name="android:background">#30ffffff</item>
+        <item name="android:drawablePadding">20dp</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:textColorHint">@color/white</item>
+    </style>
+    <style name="Button">
+        <item name="android:text">@string/log_in</item>
+        <item name="android:backgroundTint">#00879F</item>
+    </style>
+    <style name="ForgotPassword">
+        <item name="android:text">@string/forgot_password</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Option1">
+        <item name="android:text">@string/or_sign_in_with</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Layout">
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Logogoogle">
+        <item name="android:src">@drawable/google_icons_09_512</item>
+        <item name="android:contentDescription">TODO</item>
+    </style>
+    <style name="Logofacebook">
+        <item name="android:src">@drawable/facebook_logo__2019_</item>
+        <item name="android:contentDescription">@string/todo</item>
+    </style>
+</resources>
